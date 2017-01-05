@@ -18,7 +18,7 @@ function geocodePosition(pos){
     geocoder.geocode({latLng: pos},function(responses){
         if (responses && responses.length > 0)
         {   
-            console.log(responses[0]);
+            //console.log(responses[0]);
             count=0;
             for (var i=0; i<responses[0].address_components.length; i++)
             {
@@ -74,7 +74,7 @@ function geocodePosition(pos){
             updateMarkerAddress(responses[0].formatted_address);
             console.log(responses[0].formatted_address);
             rs=responses[0].formatted_address.split(country.long_name);
-			console.log(add1);
+            //console.log(add1);
             //document.getElementById('route').value = rs[0];
             document.getElementById('route').value = add1;
             document.getElementById('country1').value = country.short_name;

@@ -35,6 +35,9 @@
                 <input type="text" name="state" id="state" readonly/>
                 <input type="text" name="country" id="country" readonly/>
                 <input type="text" name="postalcode" id="postalcode" readonly/>
+                <input type="text" name="route" id="route" readonly/>
+                <input type="text" name="country1" id="country1" readonly/>
+                <input type="text" name="sublocality_level_1" id="sublocality_level_1" readonly/>
             </div>
             <div class="row">
                 <label>Event Location</label>
